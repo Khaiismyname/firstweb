@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lời Tâm Sự</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #fff6ee, #fdebd0);
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 50px 60px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+            position: relative;
+        }
+        
+        .container::before {
+            content: "";
+            position: absolute;
+            inset: 12px;
+            border-radius: 16px;
+            border: 1px dashed #f0c08b;
+            pointer-events: none;
+        }
+        
+        h1 {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: #d35400;
+            margin-bottom: 40px;
+        }
+        
+        .content {
+            font-size: 17px;
+            line-height: 1.9;
+            color: #444;
+        }
+        
+        .content p {
+            margin-bottom: 20px;
+        }
+        
+        .signature {
+            margin-top: 50px;
+            text-align: right;
+        }
+        
+        .signature span {
+            display: block;
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            color: #d35400;
+            margin-bottom: 8px;
+        }
+        
+        .signature strong {
+            font-size: 18px;
+            color: #333;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 35px 25px;
+            }
+            h1 {
+                font-size: 32px;
+            }
+            .content {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Lời nhắn</h1>
+
+        <div class="content">
+            <h2>Gửi mấy ông cóc,</h2>
+            <p><em>Ngồi kiếm mấy cái ảnh làm kỷ yếu mà nhận ra 3 năm cấp 3 thật sự quá nhanh, vẫn còn nhớ khoảnh khắc biết bản thân đậu vào Chánh mà giờ sắp phải xa trường rồi. Dẫu vậy nhờ có thầy cô, anh em tập thể lớp Tin 23-26 Prime mà 3 năm đó vẫn
+                    để lại cho tui 1 dấu ấn không thể quên. 3 năm có người giận hờn vu vơ, có người buồn đạp ghế đá, có người thất tình, có người kêu thằng nào đánh em tao, mâm nào cũng có mặt Tin 23-26, lạy các bố. Nhưng mà cũng vì vậy mà làm cho quãng thời gian cấp 3 của bọn mình nó mãn nhãn, nó cảm xúc. Xuân Khải tin tụi mình gặp nhau là hữu duyên và cũng biết ơn mọi người vì đã đến và giúp cho tuổi thanh xuân này thêm bùng nổ.</em></p>
+        </div>
+
+        <div class="signature">
+            <span>Thân mến,</span>
+            <strong>Nguyễn Xuân Khải</strong>
+        </div>
+    </div>
+
+</body>
+
+</html>
